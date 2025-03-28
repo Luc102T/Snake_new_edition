@@ -1,0 +1,115 @@
+[33mcommit b79ade96a7d0763d4dfe86d9f120ee52d889739c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Hoang Luc <luchoang22062006@gmail.com>
+Date:   Sun Mar 23 00:05:38 2025 +0700
+
+    Hoàn thiện trò chơi và kiểm tra lần cuối
+
+[33mcommit 4e5a1c1b22916a47b1363807cff483c785792938[m
+Author: Hoang Luc <luchoang22062006@gmail.com>
+Date:   Sun Mar 23 00:05:25 2025 +0700
+
+    Thêm chế độ chơi AI và quả táo
+
+ AISnake.cpp | 75 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ AISnake.hpp | 22 [32m++++++++++++++++++[m
+ Fruit.cpp   | 63 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ Fruit.hpp   | 24 [32m++++++++++++++++++++[m
+ 4 files changed, 184 insertions(+)
+
+[33mcommit b662fe345325034c7fcbfd1f5390b7c27da23680[m
+Author: Hoang Luc <luchoang22062006@gmail.com>
+Date:   Sat Mar 22 23:56:05 2025 +0700
+
+    Tối ưu TextureManager và quản lý vector
+
+ TextureManager.cpp | 39 [32m+++++++++++++++++++++++++++++++++++++++[m
+ TextureManager.hpp | 15 [32m+++++++++++++++[m
+ 2 files changed, 54 insertions(+)
+
+[33mcommit c893ea4ba83bc8ee39065a1d6614c1e819ed60d7[m
+Author: Hoang Luc <luchoang22062006@gmail.com>
+Date:   Sat Mar 22 23:55:47 2025 +0700
+
+    Cải tiến quản lý điểm số Score
+
+ Score.cpp | 52 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ Score.hpp | 30 [32m++++++++++++++++++++++++++++++[m
+ 2 files changed, 82 insertions(+)
+
+[33mcommit b4a310574a9d063d05341bfabcba745629404f01[m
+Author: Hoang Luc <luchoang22062006@gmail.com>
+Date:   Sat Mar 22 23:55:32 2025 +0700
+
+    Thêm menu chính cho trò chơi
+
+ Menu.cpp | 418 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ Menu.hpp |  56 [32m+++++++++[m
+ 2 files changed, 474 insertions(+)
+
+[33mcommit bb21af48095508d6f6d1f51e8e7faf48efe993a8[m
+Author: Hoang Luc <luchoang22062006@gmail.com>
+Date:   Sat Mar 22 23:55:16 2025 +0700
+
+    Thêm hệ thống âm thanh Audio
+
+ Audio.cpp | 61 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ Audio.hpp | 25 [32m+++++++++++++++++++++++++[m
+ 2 files changed, 86 insertions(+)
+
+[33mcommit 16af1f92f33accbd0021e24fbe4b31d6df398588[m
+Author: Hoang Luc <luchoang22062006@gmail.com>
+Date:   Sat Mar 22 23:54:59 2025 +0700
+
+    Thêm hệ thống Map để quản lý bản đồ trò chơi
+
+ Map.cpp | 59 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ Map.hpp | 27 [32m+++++++++++++++++++++++++++[m
+ 2 files changed, 86 insertions(+)
+
+[33mcommit 779f154248df5f2f6037dabc6d2cd64255116fc5[m
+Author: Hoang Luc <luchoang22062006@gmail.com>
+Date:   Sat Mar 22 23:54:40 2025 +0700
+
+    Thêm Game logic: quản lý vòng lặp và hiển thị văn bản
+
+ Game.cpp     | 369 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ Game.hpp     |  63 [32m++++++++++[m
+ GameText.cpp |  60 [32m++++++++++[m
+ GameText.hpp |  30 [32m+++++[m
+ 4 files changed, 522 insertions(+)
+
+[33mcommit 74303a04e13860e995bbefde61cf6f566313f6f2[m
+Author: Hoang Luc <luchoang22062006@gmail.com>
+Date:   Sat Mar 22 23:54:14 2025 +0700
+
+    Thêm hệ thống Snake và Snake2 với quản lý đuôi
+
+ Snake.cpp  | 691 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ Snake.hpp  |  81 [32m++++++++[m
+ Snake2.cpp |  75 [32m+++++++[m
+ Snake2.hpp |  22 [32m++[m
+ Tails.cpp  | 128 [32m++++++++++++[m
+ Tails.hpp  |  34 [32m+++[m
+ 6 files changed, 1031 insertions(+)
+
+[33mcommit ca47c8dd74b046d589cc5dad67eb4847ebd4e7a3[m
+Author: Hoang Luc <luchoang22062006@gmail.com>
+Date:   Sat Mar 22 23:53:46 2025 +0700
+
+    Khởi tạo dự án: Console, Timer, Vector2D
+
+ Console.hpp  | 70 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ Timer.cpp    | 34 [32m+++++++++++++++++++++++++++++[m
+ Timer.hpp    | 25 [32m++++++++++++++++++++++[m
+ Vector2D.cpp |  0
+ Vector2D.hpp | 66 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 5 files changed, 195 insertions(+)
+
+[33mcommit 7de630f949bc8b16b2a396f3592080266001d36d[m
+Author: Hoang Luc <luchoang22062006@gmail.com>
+Date:   Sat Mar 1 09:45:17 2025 +0700
+
+    Khởi tạo dự án với cấu trúc cơ bản
+
+ main.cpp | 106 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 106 insertions(+)
